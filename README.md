@@ -17,6 +17,7 @@ Cài đặt từ đầu bằng `numpy` + `matplotlib`, không dùng `scipy`/`skl
 | File | Nội dung |
 |---|---|
 | `ward_clustering_1d.ipynb` | Toàn bộ code, giải thích và hình |
+| `THUAT_TOAN.md` | Mô tả chi tiết notebook và 3 thuật toán (Ward 2 hướng, DIANA) |
 | `figures/` | Hình xuất ra từ notebook |
 | `requirements.txt` | numpy, matplotlib, ipykernel |
 
