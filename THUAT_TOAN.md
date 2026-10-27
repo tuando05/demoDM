@@ -284,7 +284,15 @@ while len(groups) < k:
 ```
 
 Cách này dùng được cho cả ba cây vì độ cao luôn không giảm từ lá lên gốc (đã kiểm tra bằng
-`is_monotone`). Kết quả (cell 17):
+`is_monotone`).
+
+**Ngưỡng cắt nào là "đúng"?** Không có ngưỡng duy nhất. Với cây Ward ở bài này, mức gộp lớn
+nhất *bên dưới* gốc là 4.17 và lần gộp cuối là 45.63, nên **mọi** $h \in (4.17;\;45.63)$ đều
+cho đúng 2 cụm $\{A,B,C\}$ và $\{D,E\}$. Hình `ward_so_sanh.png` vì vậy tô cả vùng đó
+(thay vì chọn một con số cụ thể như 13.8 — con số đó chỉ là trung bình nhân của hai biên,
+không mang ý nghĩa gì đặc biệt). Với DIANA, ngưỡng nằm giữa 3 và 8 (theo thang đường kính).
+
+Kết quả (cell 17):
 
 | $k$ | Cụm |
 |---|---|
